@@ -21,6 +21,6 @@ public class Increment {
 	public static void add() {
 		// static 메서드에서는 none static 변수를 참조 할 수 없다.
 		num2++;
-		// num1++;
+		// num1++; 얘는 참조안됨
 	}
 }

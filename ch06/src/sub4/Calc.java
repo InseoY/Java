@@ -3,7 +3,7 @@ package sub4;
 public class Calc {
 	private static Calc instance = new Calc();
 
-	// 教臂沛(沥利) 按眉
+	// 教臂沛(沥利), 沥利皋家靛, 按眉 ¤沥利鞘靛 急攫(?)
 
 		public static Calc getInstance() {
 			return instance;
