@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="sub1.UserController">
+   <children>
+      <Label layoutX="6.0" layoutY="10.0" prefHeight="31.0" prefWidth="104.0" text="직원등록">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="CENTER" layoutX="6.0" layoutY="60.0" prefHeight="15.0" prefWidth="45.0" text="아이디 :" />
+      <Label contentDisplay="CENTER" layoutX="14.0" layoutY="107.0" prefHeight="15.0" prefWidth="45.0" text="이름 :" />
+      <Label contentDisplay="CENTER" layoutX="6.0" layoutY="156.0" prefHeight="15.0" prefWidth="45.0" text="휴대폰 :" />
+      <Label contentDisplay="CENTER" layoutX="14.0" layoutY="208.0" prefHeight="15.0" prefWidth="45.0" text="직급 :" />
+      <Label contentDisplay="CENTER" layoutX="14.0" layoutY="257.0" prefHeight="15.0" prefWidth="45.0" text="부서 :" />
+      <TextField fx:id="txtUid" layoutX="69.0" layoutY="56.0" prefHeight="23.0" prefWidth="150.0" />
+      <TextField fx:id="txtName" layoutX="69.0" layoutY="103.0" prefHeight="23.0" prefWidth="150.0" />
+      <TextField fx:id="txtHp" layoutX="69.0" layoutY="152.0" prefHeight="23.0" prefWidth="150.0" />
+      <ComboBox fx:id="cbPos" layoutX="68.0" layoutY="204.0" prefHeight="23.0" prefWidth="157.0" />
+      <ComboBox fx:id="cbDep" layoutX="68.0" layoutY="253.0" prefHeight="23.0" prefWidth="157.0" />
+      <Button fx:id="btnRegister" layoutX="205.0" layoutY="302.0" mnemonicParsing="false" text="등록" />
+   </children>
+</AnchorPane>
